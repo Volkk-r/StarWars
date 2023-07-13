@@ -1,0 +1,193 @@
+html {
+    overflow-x: hidden;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    background-image: url("./img/backgroundStarWars.jpeg");
+    background-size: cover;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 35px 120px;
+    margin: 0 auto;
+}
+
+/* reset */
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.film-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    max-width: 270px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 2px 0px 60px 6px rgba(255, 255, 255, 0.31);
+    ;
+}
+
+.card:nth-child(3n) {
+    margin-right: 0;
+}
+
+.card__image {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.image-1 {
+    background-image: url("./img/aNewHope1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.image-2 {
+    background-image: url("./img/The\ Empire\ Strikes\ Back2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.image-3 {
+    background-image: url("./img/Return\ of\ the\ Jedi3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.image-4 {
+    background-image: url("./img/The\ Phantom\ Menace4.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.image-5 {
+    background-image: url("./img/Attack\ of\ the\ Clones5.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.image-6 {
+    background-image: url("./img/Revenge\ of\ the\ Sith6.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+.card__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.card__year {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%; 
+}
+
+.page {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page__link {
+    margin-bottom: 15px;
+}
+
+.page__header {
+    margin-bottom: 15px;
+}
+
+.page__stage {
+    margin-bottom: 20px;
+}
+.page__info {
+    display: flex;
+    flex-direction: row;
+}
+.page__info-block {
+    max-width: 200px;
+    width: 100%;
+}
+.page__info-block:not(:last-child){
+    margin-right: 40px;
+}
+.page__info-title{
+    margin-bottom: 10px;
+}
+
+.page__item {
+    margin-bottom: 5px;
+}
